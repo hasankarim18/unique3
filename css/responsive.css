@@ -1,0 +1,98 @@
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+	section.highlight .highlight-text{
+	position:relative;
+}
+section.highlight .highlight-text .highlight-img{
+	position:absolute;
+	top:-23%;
+	left:0;
+}
+section.highlight .highlight-text h3{
+	text-align:center;
+	padding:5rem 0 5.4rem 5rem;
+	color:white;
+}
+}
+
+
+@media only screen and (max-width: 992px) {
+	section.highlight .highlight-text{
+	position:relative;
+}
+section.highlight .highlight-text .highlight-img{
+	position:absolute;
+	top:-23%;
+	left:-44px;
+}
+section.highlight .highlight-text h3{
+	text-align:center;
+	padding:5rem 0 5.4rem 5rem;
+	color:white;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	section.heading {
+	/* margin:305px auto 240px auto; */
+	padding:0px 0 70px 0;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	position:relative;
+	left:-3%;
+	
+	
+}
+	section.heading h1 {
+	font-weight:700;
+	font-size:3rem;
+	line-height:4rem;
+	}
+
+	section.heading a {
+	width:240px;
+	height:60px;
+	border-radius:35px;
+	display:inline-block;
+	background:#f2f2f2;
+	text-transform:capitalize;
+	letter-spacing:3px;
+	margin-top:1.5rem;
+	
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
+section.highlight .highlight-text .highlight-img{
+	    position: absolute;
+    top: -17%;
+    left: -43px;
+}
+section.highlight .highlight-text .highlight-img img{
+	width:265px;
+}
+
+}
+
+
+@media only screen and (max-width: 600px){
+	section.highlight .highlight-text .highlight-img{
+	  position: absolute;
+		top: -23%;
+		left: 0px;
+}
+	section.highlight .highlight-text .highlight-img img{
+	width:265px;
+	}
+}
+
+
+	
